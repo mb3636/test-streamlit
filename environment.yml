@@ -4,3 +4,4 @@ channels:
 dependencies:
   - pytorch
   - ezc3d
+  - streamlit
