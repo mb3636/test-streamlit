@@ -1,11 +1,13 @@
 import streamlit as st
 import torch
+import numpy as np
 
 def main():
     # set page layout
     st.set_page_config(layout='wide')
     # info
     st.markdown(readme())
+    print(np.__version__)
 
 @st.cache()
 def readme():
