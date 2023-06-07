@@ -7,7 +7,7 @@ def main():
     st.set_page_config(layout='wide')
     # info
     st.markdown(readme())
-    print(np.__version__)
+    st.markdown(np.__version__))
 
 @st.cache()
 def readme():
